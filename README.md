@@ -48,7 +48,7 @@ Before you begin, make sure you have the following installed:
         |                |      Sensor Module     |   |
         |                +-----------+------------+   |
         |                            |                |
-        |                      SDA, SCL (I2C)        |
+        |                      SDA, SCL (I2C)         |
         |                            |                |
         |                            |                |
         |                            |                |
@@ -66,14 +66,14 @@ Before you begin, make sure you have the following installed:
         |                +------------------------+   |
         |                                             |
         |                Reaction Wheel               |
-        |                Control Circuit             |
+        |                Control Circuit              |
         |                                             |
         |                  +----------+               |
         |                  |   PWM    |               |
         |                  |  Output  |               |
         |                  +----+-----+               |
         |                       |                     |
-        |                       | Motor Power        |
+        |                       | Motor Power         |
         |                       v                     |
         |                  +----+-----+               |
         |                  |    DC    |               |
@@ -82,14 +82,14 @@ Before you begin, make sure you have the following installed:
         |                                             |
         |                                             |
         |                Thruster                     |
-        |                Control Circuit             |
+        |                Control Circuit              |
         |                                             |
         |                  +----------+               |
         |                  |   PWM    |               |
         |                  |  Output  |               |
         |                  +----+-----+               |
         |                       |                     |
-        |                       | Motor Power        |
+        |                       | Motor Power         |
         |                       v                     |
         |                  +----+-----+               |
         |                  |    DC    |               |
@@ -97,18 +97,18 @@ Before you begin, make sure you have the following installed:
         |                  +----------+               |
         |                                             |
         |                Magnetorquer                 |
-        |                Control Circuit             |
+        |                Control Circuit              |
         |                                             |
         |                  +----------+               |
         |                  |   PWM    |               |
         |                  |  Output  |               |
         |                  +----+-----+               |
         |                       |                     |
-        |                       | Current            |
+        |                       | Current             |
         |                       v                     |
         |                  +----+-----+               |
         |                  |   Coil   |               |
-        |                  |         |               |
+        |                  |          |               |
         |                  +----------+               |
         |                                             |
         +---------------------------------------------+
